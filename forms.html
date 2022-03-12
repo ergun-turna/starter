@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="name"> Adınız</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="surname">Soyad</label>
+        <input type="text" id="surname" />
+      </div>
+      <div>
+        <label for="paralo">Paralo</label>
+        <input type="password" id="paralo" />
+      </div>
+
+      <div>
+        <label for="tarih">Doğum Tarihi</label>
+        <input type="date" id="tarih" />
+      </div>
+
+      <div>
+        <label for="intro"> Kendini Anlat</label>
+        <textarea id="intro" cols="30" rows="5"></textarea>
+      </div>
+      <div>
+        <p>En Sevdiğin Programlama Dili</p>
+
+        <input type="radio" id="Html" name="program" />
+        <label for="html"> html</label>
+
+        <input type="radio" id="css" name="program" />
+        <label for="css"> Css</label>
+
+        <input type="radio" id="javascript" name="program" />
+        <label for="javascript"> Javascript</label>
+      </div>
+
+      <div>
+        <p>En Sevdiğin Programlama Dili</p>
+
+        <input type="checkbox" id="Html2" />
+        <label for="Html2"> html</label>
+
+        <input type="checkbox" id="css2" />
+        <label for="css2"> Css</label>
+
+        <input type="checkbox" id="javascript2" />
+        <label for="javascript2"> Javascript</label>
+      </div>
+
+      <div>
+        <label for="cities">Şehir</label>
+        <select id="cities">
+          <option value="41">Koceli</option>
+          <option value="34">İstanbul</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="eposta">Email </label>
+        <input type="email" id="email" />
+      </div>
+
+      <button type="submit">Kaydet</button>
+      <button type="reset">Temizle</button>
+    </form>
+  </body>
+</html>
